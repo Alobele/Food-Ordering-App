@@ -254,7 +254,7 @@ void dispose() {
      await _auth.signInWithEmailAndPassword(email: email, password: password)
     .then((uid) => {
       Fluttertoast.showToast(msg:"Login Sucessful"),
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>HomePage())),
+      Navigator.of(context, rootNavigator: true).pushReplacement(MaterialPageRoute(builder: (context)=>HomePage())),
 
     }).catchError((e)
     // ignore: body_might_complete_normally_catch_error

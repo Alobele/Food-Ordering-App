@@ -67,6 +67,24 @@ class _ProductState extends State<Product> {
       "picture": "images/products/Drinks.jpg",
       "price": 100,
       "description":"Fresh Strawberry Juice"
+    },
+    {
+      "name": "Bread",
+      "picture": "images/products/Bread.jpg",
+      "price": 150,
+      "description":"Baked Bread"
+    },
+    {
+      "name": "Meat-pie",
+      "picture": "images/products/Meat-pie.jpg",
+      "price": 200,
+      "description":"Hot and fresh Meat pie"
+    },
+    {
+      "name": "Ice-cream",
+      "picture": "images/products/Ice-cream.jpg",
+      "price": 250,
+      "description":"Cold and chilled Ice-cream"
     }
   ];
 
